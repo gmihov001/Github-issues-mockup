@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.github-logo {
+  float: left;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -15,17 +19,38 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 60px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-body {
+  background-color: white;
+  padding: 30px 100px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.issues-table {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.table-header {
+  background-color: rgb(250, 250, 250);
+  text-align: left;
+  padding: 20px;
+}
+
+.table-entry {
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {

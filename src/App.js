@@ -6,19 +6,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img alt="logo" className="github-logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" />
       </header>
+      <div className="App-body">
+        <div className="issues-table">
+            <div className="table-header">
+                489 open / 5443 closed
+            </div>
+            <div className="table-entry">
+                npm start is not working
+            </div>
+        </div>
+      </div>
     </div>
   );
 }
