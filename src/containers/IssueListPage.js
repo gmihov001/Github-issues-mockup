@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './IssueListPage.css';
 
 function App() {
   return (
@@ -14,7 +13,9 @@ function App() {
                 489 open / 5443 closed
             </div>
             <div className="table-entry">
-                npm start is not working
+                <strong>npm start is not working</strong>
+                <br/>
+                #9208 opened 2 hours ago by Easyvipin
             </div>
         </div>
       </div>
